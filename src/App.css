@@ -1,17 +1,17 @@
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f0e68c;
   min-height: 10vh;
   display: flex;
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
   
 }
 
 
 .Home {
-  background-color: azure;
+  background-color: #282c34;
 }
 
 .Pages{

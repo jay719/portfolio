@@ -1,7 +1,8 @@
 
 import './App.css';
-import  HomeComponent from './components/HomeComponent.js'
-import ProjectsComponent from './components/ProjectsComponent.js'
+import Header from './components/Header.js'
+import  Home from './components/Home.js'
+import Projects from './components/Projects.js'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -11,19 +12,11 @@ function App() {
       <Router>
         <main>
           <nav>
-            <div className="App-header">
-              <div>
-                <p>Javaria Brascom</p>
-              </div>
-              <div className="Pages"> 
-                <a className="link" href="/">Home</a>
-                <a className="link" href="/projects">Projects</a>
-              </div>
-            </div>
+            <Header />
           </nav>
           <Switch>
-            <Route path="/" exact component={HomeComponent} />  
-            <Route path="/projects" component={ProjectsComponent} />
+            <Route path="/" exact component={Home} />  
+            <Route path="/projects" component={Projects} />
           </Switch>
         </main>
       </Router>
