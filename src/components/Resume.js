@@ -26,7 +26,8 @@ export default function Resume () {
             </div>
             <h2>Education</h2>
             <div className="education">
-
+                <h3>Flatiron School, Denver, CO October 2020 - January 2021</h3>
+                <p>Full-Stack Web Development, Ruby on Rails and JavaScript program.</p>
             </div>
             <h2>Skils</h2>
             <div className="skills">
