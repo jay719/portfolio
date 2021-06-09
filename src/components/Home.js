@@ -8,7 +8,7 @@ export default function HomeComponent() {
     return (
         <div className="Home">
             <div>{numCounter}</div>
-            <p>hi</p>
+            
             <button onClick={handleClick}>count</button>
         </div>
     )

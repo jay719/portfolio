@@ -16,6 +16,7 @@ export default function Header () {
                 <div className="Pages"> 
                     <div className="nav-btn" onClick={() => navigate('/')}> HOME </div>
                     <div className="nav-btn" onClick={() => navigate('/projects')}>Projects</div>
+                    <div className="nav-btn" onClick={() => navigate('/resume')}>Resume</div>
                 </div>
         </div>
     )

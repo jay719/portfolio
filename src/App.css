@@ -16,6 +16,12 @@
 }
 .Home {
   background-color: #282c34;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
 }
 
 .Pages{
