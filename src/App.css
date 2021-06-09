@@ -9,7 +9,10 @@
   
 }
 
-
+.nav-btn {
+  margin: 15;
+  cursor: pointer;
+}
 .Home {
   background-color: #282c34;
 }
