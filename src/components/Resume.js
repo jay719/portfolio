@@ -31,9 +31,9 @@ export default function Resume () {
                 <h3>Pikes Peak Community College, Colorado Springs, CO August 2014 - May 2020</h3>
                 <p>Associate of General Sciences-(Classes through CSU Pueblo) Mathematics and Science</p>
             </div>
-            <h2>Skils</h2>
+            <h2>Skills</h2>
             <div className="skills">
-
+                <li>Technical: Ruby, Rails, SQL, PostgreSQL, Javascript, React.js, React Native, Vue.js, Azure VM’s & Azure SQL Databases</li>
             </div>
         </div>
     )
