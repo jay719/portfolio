@@ -19,9 +19,10 @@ export default function Resume () {
                 <li>Maintained continuous, consistent,and professional communication with customers, peers, and team.</li>
 
                 <h3>Custodian, Jan Pro Cleaning || February 2018 - August 2019</h3>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Responsible for leading 2 cleaning crews and 3 work sites.</li>
+                <li>Implemented new cleaning processes and strategies to reduce necessary man-hours by 5 hours per week.</li>
+                <li>Checked alarms, locked entrances, and looked for any safety hazards in and around multiple buildings.</li>
+                
             </div>
             <h2>Education</h2>
             <div className="education">
