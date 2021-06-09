@@ -30,6 +30,14 @@
   
 }
 
-.link {
-  margin-left: 20rem;
+.education {
+  display: flex;
+  
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: whitesmoke;
+  cursor: pointer;
 }

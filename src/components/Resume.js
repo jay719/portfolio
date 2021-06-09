@@ -24,17 +24,23 @@ export default function Resume () {
                 <li>Checked alarms, locked entrances, and looked for any safety hazards in and around multiple buildings.</li>
                 
             </div>
-            <h2>Education</h2>
+            
             <div className="education">
+            
+                <aside>
+                <h2>Education</h2>
                 <h3>Flatiron School, Denver, CO October 2020 - January 2021</h3>
                 <p>Full-Stack Web Development, Ruby on Rails and JavaScript program.</p>
                 <h3>Pikes Peak Community College, Colorado Springs, CO August 2014 - May 2020</h3>
                 <p>Associate of General Sciences-(Classes through CSU Pueblo) Mathematics and Science</p>
+                </aside>
+                <aside className="skills">
+                    <h2>Skills</h2>
+                    <li>Technical: Ruby, Rails, SQL, PostgreSQL, Javascript, React.js, React Native, Vue.js, Azure VM’s & Azure SQL Databases</li>
+                </aside>
             </div>
-            <h2>Skills</h2>
-            <div className="skills">
-                <li>Technical: Ruby, Rails, SQL, PostgreSQL, Javascript, React.js, React Native, Vue.js, Azure VM’s & Azure SQL Databases</li>
-            </div>
+            
+            
         </div>
     )
 }
