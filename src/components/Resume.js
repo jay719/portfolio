@@ -28,6 +28,8 @@ export default function Resume () {
             <div className="education">
                 <h3>Flatiron School, Denver, CO October 2020 - January 2021</h3>
                 <p>Full-Stack Web Development, Ruby on Rails and JavaScript program.</p>
+                <h3>Pikes Peak Community College, Colorado Springs, CO August 2014 - May 2020</h3>
+                <p>Associate of General Sciences-(Classes through CSU Pueblo) Mathematics and Science</p>
             </div>
             <h2>Skils</h2>
             <div className="skills">
