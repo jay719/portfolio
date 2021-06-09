@@ -3,28 +3,18 @@ import './App.css';
 import Header from './components/Header.js'
 import  Home from './components/Home.js'
 import Projects from './components/Projects.js'
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      
-      <Router>
-        <main>
-          <nav>
-            <Header />
-          </nav>
+      <BrowserRouter>
+        <Header />
           <Switch>
-            <Route path="/" exact component={Home} />  
-            <Route path="/projects" component={Projects} />
+            <Route path="/" component={Home} />  
+            <Route path="/projects" exact  component={Projects} />
           </Switch>
-        </main>
-      </Router>
-      
-      <div>
-          <p>Hello</p>
-          <h1>two</h1>
-      </div>
+      </BrowserRouter>
     </div>
   );
 }

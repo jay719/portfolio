@@ -15,8 +15,8 @@ export default function Header () {
                     <p>Javaria Brascom</p>
                 </div>
                 <div className="Pages"> 
-                    <div className="nav-btn"><h7 onClick={navigate('/')}>HOME</h7></div>
-                    <div className="nav-btn"><h7 onClick={navigate('/portfolio')}>PORTFOLIO</h7></div>
+                    <div className="nav-btn" onClick={navigate('/')}> HOME </div>
+                    <div className="nav-btn" onClick={navigate('/projects')}>Projects</div>
                 </div>
             </div>
         </div>
