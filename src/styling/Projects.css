@@ -3,6 +3,13 @@
     
     font-size: 18px;
 }
+.fart {
+    display: flex;
+    flex-direction: column;
+}
+.demo-info{
+    display:flex;
+}
 
 .video {
     width: 40%;
