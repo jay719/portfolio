@@ -10,9 +10,9 @@ export default function ProjectsComponent () {
                 <div className="demo-info">
                     <iframe width="640" height="360" src="https://www.youtube.com/embed/YSNof3v78aM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div className="fart">
-                        <p>All are welcome to sign in and enjoy Snack Maps, your Local Restaurant finder!</p>
-                        <p>“If you or any of your loved ones are hangry, this app is the perfect solution.” - Satisfied User</p>
-                        <p>During the third mod of flatiron I was tasked with joining Javascript, HTML, and CSS to render api data based on user click-events. I also established Ruby On Rails backend to handle sign up and sign in authorization with JWT.</p>
+                        <li>All are welcome to sign in and enjoy Snack Maps, your Local Restaurant finder!</li>
+                        <li>“If you or any of your loved ones are hangry, this app is the perfect solution.” - Satisfied User</li>
+                        <li>During the third mod of flatiron I was tasked with joining Javascript, HTML, and CSS to render api data based on user click-events. I also established Ruby On Rails backend to handle sign up and sign in authorization with JWT.</li>
                     </div>
                 </div>
             </div>
