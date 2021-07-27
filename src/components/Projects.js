@@ -10,10 +10,10 @@ export default function ProjectsComponent () {
                 <div className="demo-info">
                     <iframe width="640" height="360" src="https://www.youtube.com/embed/YSNof3v78aM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div className="fart">
+                    <p>For my last Flatiron School project, I created a React Native mobile app that easily plans trips with friends.</p>
                         <ul>
-                            <p>For my last Flatiron School project, I created a React Native mobile app that easily plans trips with your friends.</p>
-                            <p>“If you or any of your loved ones are hangry, this app is the perfect solution.” - Satisfied User</p>
-                            <li> joining Javascript, HTML, and CSS to render api data based on user click-events. I also established Ruby On Rails backend to handle sign up and sign in authorization with JWT.</li>
+                            <li> Utilized JSON Web Tokens and PostgreSQL to store encrypted user information and hosted on Heroku</li>
+                            <li></li>
                         </ul>
                     </div>
                 </div>
