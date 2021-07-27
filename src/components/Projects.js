@@ -10,7 +10,7 @@ export default function ProjectsComponent () {
                 <div className="demo-info">
                     <iframe width="640" height="360" src="https://www.youtube.com/embed/YSNof3v78aM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div className="fart">
-                    <p>For my last Flatiron School project, I created a React Native mobile app that easily plans trips with friends.</p>
+                        <p>For my last Flatiron School project, I created a React Native mobile app that easily plans trips with friends.</p>
                         <ul>
                             <li> Utilized JSON Web Tokens and PostgreSQL to store encrypted user information and hosted on Heroku</li>
                             <li>Combined React Native libraries to create functional map, camera, and calendar screens/tabs</li>
