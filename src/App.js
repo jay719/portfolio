@@ -1,20 +1,22 @@
 
-import './App.css';
+import './App.scss';
 import Header from './components/Header.js'
 import  Home from './components/Home.js'
 import Projects from './components/Projects.js'
 import { BrowserRouter, Route } from "react-router-dom";
-import Resume from './components/Resume.js';
+import Resume from './components/ContactMe.js';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header />
+        {/* <Header /> */}
             <Route exact path="/" component={Home} />  
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/resume" component={Resume} />
       </BrowserRouter>
+
+
     </div>
   );
 }

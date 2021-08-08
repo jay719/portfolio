@@ -11,7 +11,7 @@ export default function Header () {
     return (
         <div className="Header">
                 <div>
-                    <p>Javaria Brascom</p>
+                    <p>Full-stack Developer</p>
                 </div>
                 <div className="Pages"> 
                     <div className="nav-btn" onClick={() => navigate('/')}> HOME </div>
