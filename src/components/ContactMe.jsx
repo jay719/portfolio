@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../styling/ContactMe.scss'
 export default function Resume () {
 
     return (
