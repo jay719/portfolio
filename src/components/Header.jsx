@@ -10,15 +10,16 @@ export default function Header () {
         history.push(text);
     }
     return (
-        <div className="Header">
+        <div className="header">
+            <p>Full-stack Developer</p>
                 <div>
-                    <p>Full-stack Developer</p>
+                    
                 </div>
-                <div className="Pages"> 
+                {/* <div className="Pages"> 
                     <div className="nav-btn" onClick={() => navigate('/')}> HOME </div>
                     <div className="nav-btn" onClick={() => navigate('/projects')}>Projects</div>
                     <div className="nav-btn" onClick={() => navigate('/resume')}>Resume</div>
-                </div>
+                </div> */}
         </div>
     )
 }

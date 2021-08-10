@@ -4,7 +4,8 @@ export default function ProjectsComponent () {
 
     return (
         <div className="projects">
-            <div className="individual-project">
+            <p>hey</p>
+            {/* <div className="individual-project">
                 <h2>G.O.A.T Planning</h2>
                 <a href="https://github.com/jay719/FlatironCapstone" >Github</a>
                 <div className="demo-info">
@@ -32,7 +33,7 @@ export default function ProjectsComponent () {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     ) 

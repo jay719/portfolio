@@ -4,7 +4,8 @@ export default function Resume () {
 
     return (
         <div className="contact">
-            <h2>Experience</h2>
+            <p>wassup</p>
+            {/* <h2>Experience</h2>
             <div className="experience">
                 <h3>Quality Analyst, Quantum Metric || July 2021-</h3>
                 <li></li>
@@ -39,7 +40,7 @@ export default function Resume () {
                     <li>Technical: Ruby, Rails, SQL, PostgreSQL, Javascript, React.js, React Native, Vue.js, Azure VM’s & Azure SQL Databases</li>
                 </aside>
             </div>
-            
+             */}
             
         </div>
     )
