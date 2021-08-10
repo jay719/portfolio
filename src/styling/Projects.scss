@@ -1,9 +1,12 @@
-.Projects a {
+.project {
+    background-color: lightskyblue;
+}
+.projects a {
     text-decoration: none;
     
     font-size: 18px;
 }
-.fart {
+.goat-project {
     display: flex;
     flex-direction: column;
 }

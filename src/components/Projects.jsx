@@ -3,13 +3,13 @@ import '../styling/Projects.scss'
 export default function ProjectsComponent () {
 
     return (
-        <div className="Projects">
+        <div className="projects">
             <div className="individual-project">
                 <h2>G.O.A.T Planning</h2>
                 <a href="https://github.com/jay719/FlatironCapstone" >Github</a>
                 <div className="demo-info">
                     <iframe width="640" height="360" src="https://www.youtube.com/embed/YSNof3v78aM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div className="fart">
+                    <div className="goat-project">
                         <p>For my last Flatiron School project, I created a React Native mobile app that easily plans trips with friends.</p>
                         <ul>
                             <li> Utilized JSON Web Tokens and PostgreSQL to store encrypted user information and hosted on Heroku</li>
