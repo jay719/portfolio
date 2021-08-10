@@ -1,5 +1,6 @@
 import React, { useCallback } from 'react'
 import '../styling/header.scss'
+import {Person, Mail} from "@material-ui/icons"
 import { useHistory } from 'react-router';
 
 export default function Header () {
@@ -14,8 +15,13 @@ export default function Header () {
             <div className="wrapper">
                 <div className="left">
                     <a href="#home" className="logo">GOAT</a>
-                    <div className="header-text">
-                        
+                    <div className="header-items">
+                        <Person classname="icon" />
+                        <span>+1 719-217-24772</span>
+                    </div>
+                    <div className="header-items">
+                        <Mail classname="icon"/>
+                        <span>javariab17@gmail.com</span>
                     </div>
                 </div>
             </div>
