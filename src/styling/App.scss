@@ -5,7 +5,21 @@
   padding: 16px;
   cursor: pointer;
 }
+.Home {
+  background-color: #282c34;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
 
+.Pages{
+  display: flex;
+  justify-content: space-between;
+  
+}
 
 .education {
   display: flex;
