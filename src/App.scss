@@ -11,7 +11,11 @@
     > *{
       width: 100vw;
       height: calc(100vh - 70px);
-      scroll-snap-type: y mandatory;
+      scroll-snap-align: start;
+      scrollbar-width: none; //for firefox
+      &::-webkit-scrollbar{
+        display: none;
+      }
     }
   }
 
