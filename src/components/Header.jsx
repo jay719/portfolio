@@ -13,12 +13,16 @@ export default function Header () {
         <div className="header" >
             <div className="wrapper">
                 <div className="left">
-                    <a href="#home">asda</a>
-                </div>
-                <div className="right">
-
+                    <a href="#home" className="logo">GOAT</a>
+                    <div className="header-text">
+                        
+                    </div>
                 </div>
             </div>
+                <div className="right">
+                    
+                </div>
+            
                 {/* <div className="Pages"> 
                     <div className="nav-btn" onClick={() => navigate('/')}> HOME </div>
                     <div className="nav-btn" onClick={() => navigate('/projects')}>Projects</div>
