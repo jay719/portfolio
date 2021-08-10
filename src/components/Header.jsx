@@ -1,6 +1,7 @@
 import React, { useCallback } from 'react'
 import '../styling/header.scss'
-import {LinkedIn, Mail, GitHub} from "@material-ui/icons"
+import {LinkedIn, Mail, GitHub, LibraryBooks} from "@material-ui/icons"
+import IconButton from '@material-ui/core/IconButton';
 import { useHistory } from 'react-router';
 
 export default function Header () {
@@ -20,11 +21,19 @@ export default function Header () {
                         <span>javariab17@gmail.com</span>
                     </div>
                     <div className="header-items">
-                        <LinkedIn classname="icon" />
+                        <IconButton color="inherit" aria-label="Linkedin.com" onClick={() => window.open('https://www.Linkedin.com/in/javaria-brascom')}>
+                            <LinkedIn classname="icon" />
+                        </IconButton>
                     </div>
                     <div className="header-items">
-                        <GitHub classname="icon"/>
-                        
+                        <IconButton color="inherit" aria-label="Linkedin.com" onClick={() => window.open('https://github.com/jay719')}>
+                            <GitHub classname="icon"/>
+                        </IconButton>
+                    </div>
+                    <div className="header-items">
+                        <IconButton color="inherit" aria-label="Medium.com" onClick={() => window.open('https://javariab17.medium.com/')}>
+                            <LibraryBooks classname="icon"/>
+                        </IconButton>
                     </div>
                     
                 </div>
