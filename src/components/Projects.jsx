@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styling/Projects.scss'
+import '../styling/projects.scss'
 export default function ProjectsComponent () {
 
     return (

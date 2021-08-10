@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../styling/Home.scss'
+import '../styling/home.scss'
 export default function Home() {
 
     return (

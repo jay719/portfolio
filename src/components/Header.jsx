@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react'
-import '../styling/Header.scss'
+import '../styling/header.scss'
 import { useHistory } from 'react-router';
 
 export default function Header () {
