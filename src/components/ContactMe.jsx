@@ -3,7 +3,7 @@ import '../styling/contactme.scss'
 export default function Resume () {
 
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             
             {/* <h2>Experience</h2>
             <div className="experience">

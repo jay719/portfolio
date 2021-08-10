@@ -3,7 +3,7 @@ import '../styling/projects.scss'
 export default function ProjectsComponent () {
 
     return (
-        <div className="projects">
+        <div className="projects" id="project">
             
             {/* <div className="individual-project">
                 <h2>G.O.A.T Planning</h2>
