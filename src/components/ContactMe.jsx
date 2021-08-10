@@ -4,7 +4,7 @@ export default function Resume () {
 
     return (
         <div className="contact">
-            <p>wassup</p>
+            
             {/* <h2>Experience</h2>
             <div className="experience">
                 <h3>Quality Analyst, Quantum Metric || July 2021-</h3>

@@ -4,7 +4,7 @@ export default function ProjectsComponent () {
 
     return (
         <div className="projects">
-            <p>hey</p>
+            
             {/* <div className="individual-project">
                 <h2>G.O.A.T Planning</h2>
                 <a href="https://github.com/jay719/FlatironCapstone" >Github</a>

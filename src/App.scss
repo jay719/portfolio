@@ -1,4 +1,21 @@
+.App{
+  height: 100vh;
+  
+  .sections{
+    width: 100%;
+    height: calc(100vh - 70px); //page size - header
+    position: relative;
+    background-color: lightsalmon;
+    top: 70px;
+    scroll-snap-type: y mandatory;
+    > *{
+      width: 100vw;
+      height: calc(100vh - 70px);
+      scroll-snap-type: y mandatory;
+    }
+  }
 
+}
 a {
   text-decoration: none;
   font-weight: bold;
