@@ -1,30 +1,62 @@
-import React, { useState } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
+import { init } from 'ityped'
+
 import '../styling/home.scss'
+import userEvent from '@testing-library/user-event'
 export default function Home() {
+    const helloRef = useRef()
+    const typingRef = useRef()
+    const iRef = useRef()
+    useEffect(() => {
+        init(typingRef.current, {
+            showCursor: false,
+            startDelay:2000,
+            backSpeed: 100,
+            strings: ["Full Stack Developer", "Innovator", "Scholar", "G.O.A.T"],
+        });
+        init(helloRef.current, {
+            showCursor: false,
+            strings: ["Welcome!"],
+            loop: false,
+            typeSpeed: 30,
+            
+        });
+        init(iRef.current, {
+            showCursor: false,
+            startDelay:1100,
+            backSpeed: 100,
+            strings: ["I am a"],
+            loop: false,
+            typeSpeed: 30,
+        });
+    }, [])
 
-    const titles = ["Full Stack Developer", "Inovator", "Scholar"]
-
-    const typingText = () => {
-        titles.map(title => {
-            return <h2>{title}</h2>
-        })
-    }
+    
     return (
 
         
         <div className="home" id="home">
             <div className="left">
-
+                <div className="imageContainer">
+                    <img src="assets/github-profile.jpg" alt="Javaria's beatiful face"/>
+                </div>
             </div>
-            <div className="right">
-                <div className="name">
-                    <h3>Javaria Brascom</h3>
-                    <div className="typing-text">
-                        {typingText()}
+            <aside className="right">
+                <div className="wrapper">
+                    <div className="name">
+                        <h2 ref={helloRef} className="helloText">
+
+                        </h2>
+                        <h2 ref={iRef} className="iText">
+
+                        </h2>
+
+                        <span ref={typingRef} className="typingText">
+                            
+                        </span>
                     </div>
                 </div>
-            
-            </div>
+            </aside>
         </div>
     )
 }

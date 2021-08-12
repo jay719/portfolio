@@ -18,9 +18,14 @@ export default function Header () {
                     <a href="#home" className="logo">GOAT</a>
                     <div className="header-items">
                         <Mail classname="icon"/>
-                        <span>javariab17@gmail.com</span>
+                        <span>Javaria Brascom</span>
                     </div>
-                    <div className="header-items">
+                    
+                    
+                </div>
+            
+                <div className="right">
+                <div className="header-items">
                         <IconButton color="inherit" aria-label="Linkedin.com" onClick={() => window.open('https://www.Linkedin.com/in/javaria-brascom')}>
                             <LinkedIn classname="icon" />
                         </IconButton>
@@ -35,13 +40,8 @@ export default function Header () {
                             <LibraryBooks classname="icon"/>
                         </IconButton>
                     </div>
-                    
                 </div>
             </div>
-                <div className="right">
-                    
-                </div>
-            
                 {/* <div className="Pages"> 
                     <div className="nav-btn" onClick={() => navigate('/')}> HOME </div>
                     <div className="nav-btn" onClick={() => navigate('/projects')}>Projects</div>

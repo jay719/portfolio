@@ -1,6 +1,10 @@
 .App{
   height: 100vh;
-  
+    .header{
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    }
   .sections{
     width: 100%;
     height: calc(100vh - 70px); //page size - header

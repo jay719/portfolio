@@ -9,7 +9,10 @@ import ContactMe from './components/ContactMe.jsx';
 function App() {
   return (
     <div className="App">
+      <div className="header">
       <Header />
+      </div>
+      
       <div className="sections">
         <Home />
         <Projects />
