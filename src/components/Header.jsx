@@ -15,7 +15,9 @@ export default function Header () {
         <div className="header" >
             <div className="wrapper">
                 <div className="left">
-                    <a href="#home" className="logo">GOAT</a>
+                    <a href="#home" className="logo">
+                        <img src="./assets/logo.png" alt="GAME OVER" />
+                    </a>
                     <div className="header-items">
                         <Mail classname="icon"/>
                         <span>Javaria Brascom</span>
