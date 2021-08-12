@@ -47,13 +47,10 @@ export default function Home() {
                         <h2 ref={helloRef} className="helloText">
 
                         </h2>
-                        <h2 ref={iRef} className="iText">
-
-                        </h2>
-
-                        <span ref={typingRef} className="typingText">
-                            
-                        </span>
+                        <h2 ref={iRef} className="iText"></h2> <span ref={typingRef} className="typingText"></span>
+                    <div className="floatText">
+                        <h2>making YOUser centered designs and applications </h2>
+                    </div>
                     </div>
                 </div>
             </aside>
