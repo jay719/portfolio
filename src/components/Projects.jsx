@@ -1,40 +1,87 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import '../styling/projects.scss'
+import PortfolioList from './PortfolioList.jsx'
+import SelectedProject from './SelectedProject.jsx'
 export default function ProjectsComponent () {
+    const [selected, setSelected] = useState("goat")
+    const [selectedProject, setProject] = useState([])
+
     const list = [
         {
             id: "snack",
-            title: "Snack Maps"
+            title: "Snack Maps",
+            source: "https://www.youtube.com/embed/YSNof3v78aM",
+            website: "https://snack-maps-7.web.app/",
+            description: "Local Restaurant & Cuisine Finding Website",
         },
 
         {
             id:"goat",
-            title:"G.O.A.T Planning"
+            title:"G.O.A.T Planning",
+            source: "https://www.youtube.com/embed/YSNof3v78aM",
+            website: "",
+            description: "Event Planning App compatible with multiple friends",
         },
 
         {
             id:"anime",
-            title:"Animania"
+            title:"Animania",
+            source: "https://www.youtube.com/embed/nVxz5scZzgA",
+            website: "Review the Most nominated Anime with this app",
+            description: "Top 50 anime reviewing app"
         }
-    ]
+    ];
+    
+    const listProjectTitles = (list) => {
+        
+        return list.map((item) => {
+            
+            return <PortfolioList 
+                title={item.title}
+                active={selected === item.id} 
+                setSelected={setSelected}
+                id={item.id}
+                
+            /> 
+        })
+    };
+    useEffect(() => {
+        switch(selected){
+            case "goat":
+                setProject(list[1]);
+                break;
+            case "snack":
+                setProject(list[0]);
+                break;
+            case "anime":
+            setProject(list[2]);
+            break;
+            default:
+                setProject(list[1])
+        }
+        
+    }, [selected])
 
+    const showProjectInformation = (project) => {
+        return <SelectedProject 
+                title={project.title}
+                source={project.source}
+                website={project.website}
+                description={project.description}
+    
+            />
+    }
     return (
+        
         <div className="projects" id="project">
+            {console.log(list)}
             <h1> Portfolio</h1>
             <ul>
-                <li className="active"></li>
+                {listProjectTitles(list)}
                 
             </ul>
             <div className="container">
-                <div className="item">
-                <iframe 
-                className="iframe" 
-                src="https://www.youtube.com/embed/YSNof3v78aM" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3>G.o.t Plan</h3>
-                </div>
+                {showProjectInformation(selectedProject)}
             </div>
             {/* <div className="individual-project">
                 <h2>G.O.A.T Planning</h2>
