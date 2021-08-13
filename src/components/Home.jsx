@@ -38,9 +38,7 @@ export default function Home() {
         <div className="home" id="home">
             <Header />
             <div className="left">
-                <div className="imageContainer">
-                    <img src="assets/github-profile.jpg" alt="Javaria's beatiful face"/>
-                </div>
+                
             </div>
             <aside className="right">
                 <div className="wrapper">
