@@ -1,19 +1,39 @@
 import React from 'react'
 import '../styling/projects.scss'
 export default function ProjectsComponent () {
+    const list = [
+        {
+            id: "snack",
+            title: "Snack Maps"
+        },
+
+        {
+            id:"goat",
+            title:"G.O.A.T Planning"
+        },
+
+        {
+            id:"anime",
+            title:"Animania"
+        }
+    ]
 
     return (
         <div className="projects" id="project">
             <h1> Portfolio</h1>
             <ul>
-                <li>G.O.A.T Planning</li>
-                <li>Snack Maps</li>
-                <li>Animania</li>
+                <li className="active"></li>
+                
             </ul>
             <div className="container">
                 <div className="item">
-                    <img src=" alt=" />
-                    <h3></h3>
+                <iframe 
+                className="iframe" 
+                src="https://www.youtube.com/embed/YSNof3v78aM" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>G.o.t Plan</h3>
                 </div>
             </div>
             {/* <div className="individual-project">
