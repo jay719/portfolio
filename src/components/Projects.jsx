@@ -4,7 +4,18 @@ export default function ProjectsComponent () {
 
     return (
         <div className="projects" id="project">
-            
+            <h1> Portfolio</h1>
+            <ul>
+                <li>G.O.A.T Planning</li>
+                <li>Snack Maps</li>
+                <li>Animania</li>
+            </ul>
+            <div className="container">
+                <div className="item">
+                    <img src=" alt=" />
+                    <h3></h3>
+                </div>
+            </div>
             {/* <div className="individual-project">
                 <h2>G.O.A.T Planning</h2>
                 <a href="https://github.com/jay719/FlatironCapstone" >Github</a>
@@ -21,10 +32,10 @@ export default function ProjectsComponent () {
             </div>
 
             <div className="individual-project">
-                <h2>Snap Maps</h2>
+                <h2>Snack Maps</h2>
                 <a href="https://github.com/jay719/FlatironCapstone" >Github</a>
                 <div className="demo-info">
-                    <iframe width="640" height="360" src="https://www.youtube.com/embed/YSNof3v78aM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/nVxz5scZzgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div className="fart">
                         <ul>
                             <li>All are welcome to sign in and enjoy Snack Maps, your Local Restaurant finder!</li>
