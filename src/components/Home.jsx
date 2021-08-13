@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { init } from 'ityped'
-
+import Header from './Header.jsx'
 import '../styling/home.scss'
 import userEvent from '@testing-library/user-event'
 export default function Home() {
@@ -36,6 +36,7 @@ export default function Home() {
 
         
         <div className="home" id="home">
+            <Header />
             <div className="left">
                 <div className="imageContainer">
                     <img src="assets/github-profile.jpg" alt="Javaria's beatiful face"/>

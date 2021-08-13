@@ -13,33 +13,32 @@ export default function Header () {
     }
     return (
         <div className="header" >
-            <div className="wrapper">
-                <div className="left">
-                    <a href="#home" className="logo">
-                        <img src="./assets/logo.png" alt="GAME OVER" />
+            <div className="headerWrapper">
+                <div className="headerLeft">
+                    <a href="#home" >
+                        <img className="logo" src="./assets/logo.png" alt="GAME OVER" />
                     </a>
                     <div className="header-items">
-                        <Mail classname="icon"/>
-                        <span>Javaria Brascom</span>
+                        <h4>Javaria Brascom</h4>
                     </div>
                     
                     
                 </div>
             
-                <div className="right">
+                <div className="headerRight">
                 <div className="header-items">
-                        <IconButton color="inherit" aria-label="Linkedin.com" onClick={() => window.open('https://www.Linkedin.com/in/javaria-brascom')}>
-                            <LinkedIn classname="icon" />
+                        <IconButton color="inherit" aria-label="LinkedIn.com" onClick={() => window.open('https://www.Linkedin.com/in/javaria-brascom')}>
+                            <LinkedIn className="icon" />
                         </IconButton>
                     </div>
                     <div className="header-items">
-                        <IconButton color="inherit" aria-label="Linkedin.com" onClick={() => window.open('https://github.com/jay719')}>
-                            <GitHub classname="icon"/>
+                        <IconButton color="inherit" aria-label="Github.com" onClick={() => window.open('https://github.com/jay719')}>
+                            <GitHub className="icon"/>
                         </IconButton>
                     </div>
                     <div className="header-items">
                         <IconButton color="inherit" aria-label="Medium.com" onClick={() => window.open('https://javariab17.medium.com/')}>
-                            <LibraryBooks classname="icon"/>
+                            <LibraryBooks className="icon"/>
                         </IconButton>
                     </div>
                 </div>
