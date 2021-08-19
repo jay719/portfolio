@@ -6,29 +6,30 @@ import userEvent from '@testing-library/user-event'
 export default function Home() {
     const helloRef = useRef()
     const typingRef = useRef()
-    const iRef = useRef()
+    // const iRef = useRef()
     useEffect(() => {
         init(typingRef.current, {
             showCursor: false,
-            startDelay:2000,
+            // startDelay:1400,
             backSpeed: 100,
+            // backDelay: 400,
             strings: ["Full Stack Developer", "Innovator", "Scholar", "G.O.A.T"],
         });
         init(helloRef.current, {
             showCursor: false,
-            strings: ["Welcome!"],
+            strings: ["Welcome! I am a"],
             loop: false,
-            typeSpeed: 30,
+            typeSpeed: 60,
             
         });
-        init(iRef.current, {
-            showCursor: false,
-            startDelay:1100,
-            backSpeed: 100,
-            strings: ["I am a"],
-            loop: false,
-            typeSpeed: 30,
-        });
+        // init(iRef.current, {
+        //     showCursor: false,
+        //     startDelay:1100,
+        //     backSpeed: 100,
+        //     strings: ["I am a"],
+        //     loop: false,
+        //     typeSpeed: 30,
+        // });
     }, [])
 
     
@@ -37,22 +38,16 @@ export default function Home() {
         
         <div className="home" id="home">
             <Header />
-            <div className="left">
-                
-            </div>
-            <aside className="right">
+            <div className="text">
                 <div className="wrapper">
-                    <div className="name">
-                        <h2 ref={helloRef} className="helloText">
-
-                        </h2>
-                        <h2 ref={iRef} className="iText"></h2> <span ref={typingRef} className="typingText"></span>
+                    {/* <h2 ref={helloRef} className="helloText"></h2> */}
+                    <h2 className="helloText">Welcome! I am a</h2>
+                    <h2 ref={typingRef} className="typingText"></h2>
                     <div className="floatText">
-                        <h2>making YOUser centered designs and applications </h2>
-                    </div>
+                        <h2>boosting <b> productivity</b> and making yo</h2><span><b>User</b> focused applications </span>
                     </div>
                 </div>
-            </aside>
+            </div>
         </div>
     )
 }
