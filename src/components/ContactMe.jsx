@@ -15,6 +15,7 @@ export default function Resume () {
                 </div>
                 <div className="imageContainer">
                     <img src="assets/github-profile.jpg" alt="Javaria's beatiful face"/>
+                    <p> RESUME BUTTON</p>
                 </div>
             </div>
 

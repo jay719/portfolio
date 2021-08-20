@@ -11,8 +11,9 @@ export default function Home() {
         init(typingRef.current, {
             showCursor: false,
             // startDelay:1400,
-            backSpeed: 100,
+            backSpeed: 60,
             // backDelay: 400,
+            typeSpeed: 100,
             strings: ["Full Stack Developer", "Innovator", "Scholar", "G.O.A.T"],
         });
         init(helloRef.current, {
@@ -44,7 +45,7 @@ export default function Home() {
                     <h2 className="helloText">Welcome! I am a</h2>
                     <h2 ref={typingRef} className="typingText"></h2>
                     <div className="floatText">
-                        <h2>boosting <b> productivity</b> and making yo</h2><span><b>User</b> focused applications </span>
+                        <h2>boosting <b> productivity</b> and making </h2>  <span> <b>YOU</b> focused applicationss </span>
                     </div>
                 </div>
             </div>
