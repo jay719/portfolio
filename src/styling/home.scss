@@ -1,7 +1,15 @@
 .home {
+    box-sizing: border-box;
+    overflow-x: hidden;
     background-color: #434957;
     display: flex;
     justify-content: center;
+
+    .animation {
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+      }
     h1{
         font-size: 60px;
     }
@@ -40,12 +48,6 @@
             b{
                 font-weight: 500;
             }
-        }
-        .helloText {
-            // flex: 0 0 120px;
-            // padding-left: 20px;
-            
-
-        }
+        };
     }
 }

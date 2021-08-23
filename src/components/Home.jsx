@@ -1,8 +1,11 @@
-import React, { useState, useRef, useEffect } from 'react'
-import { init } from 'ityped'
-import Header from './Header.jsx'
-import '../styling/home.scss'
+import React, { Suspense, useRef, useEffect } from 'react';
+import { init } from 'ityped';
+import Header from './Header.jsx';
+import Points from './Points.jsx';
+import '../styling/home.scss';
+import {Canvas} from 'react-three-fiber';
 import userEvent from '@testing-library/user-event'
+
 export default function Home() {
     const helloRef = useRef()
     const typingRef = useRef()
@@ -33,22 +36,25 @@ export default function Home() {
         // });
     }, [])
 
-    
+    function AnimationCanvas () {
+        return (
+          <Canvas
+            colorManagement={false}
+            camera={{position: [100, 10, 0], fav: 76}}
+          > 
+              <Points />
+          </Canvas>
+        );
+      };
     return (
-
-        
         <div className="home" id="home">
-            <Header />
-            <div className="text">
-                <div className="wrapper">
-                    {/* <h2 ref={helloRef} className="helloText"></h2> */}
-                    <h2 className="helloText">Welcome! I am a</h2>
-                    <h2 ref={typingRef} className="typingText"></h2>
-                    <div className="floatText">
-                        <h2>boosting <b> productivity</b> and making </h2>  <span> <b>YOU</b> focused applicationss </span>
-                    </div>
-                </div>
+            
+            <div className="animation">  
+                <Suspense fallback={<div> Loading...</div>}> 
+                    <AnimationCanvas />
+                </Suspense>
             </div>
+
         </div>
     )
 }
