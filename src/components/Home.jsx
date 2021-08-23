@@ -9,7 +9,7 @@ import userEvent from '@testing-library/user-event'
 export default function Home() {
     const helloRef = useRef()
     const typingRef = useRef()
-    // const iRef = useRef()
+    const iRef = useRef()
     useEffect(() => {
         init(typingRef.current, {
             showCursor: false,
@@ -48,13 +48,20 @@ export default function Home() {
       };
     return (
         <div className="home" id="home">
-            
             <div className="animation">  
                 <Suspense fallback={<div> Loading...</div>}> 
                     <AnimationCanvas />
                 </Suspense>
             </div>
-
+            <div className="text">
+                 <div className="wrapper">
+                    <h2 ref={helloRef} className="helloText"></h2>
+                    <h2 ref={typingRef} className="typingText"></h2>
+                    <div className="floatText">
+                        <h2>boosting <b> productivity</b> and making yo</h2><span><b>User</b> focused applications </span>
+                    </div> 
+                </div>
+        </div>
         </div>
     )
 }

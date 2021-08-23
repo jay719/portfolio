@@ -3,6 +3,7 @@ import '../styling/header.scss'
 import {LinkedIn, Mail, GitHub, LibraryBooks} from "@material-ui/icons"
 import IconButton from '@material-ui/core/IconButton';
 import { useHistory } from 'react-router';
+import logo from '../assets/logo.png'
 
 export default function Header () {
     const history = useHistory();
@@ -16,7 +17,7 @@ export default function Header () {
             <div className="headerWrapper">
                 <div className="headerLeft">
                     <a href="#home" >
-                        <img className="logo" src="./assets/logo.png" alt="GAME OVER" />
+                        <img className="logo" src={logo} alt="GAME OVER" />
                     </a>
                     <div className="header-items">
                         <h4>Javaria Brascom</h4>

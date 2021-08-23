@@ -12,6 +12,9 @@
     z-index: 2;
     margin-bottom: 2px;
 
+    h4 {
+        color: white;
+    }
     .headerWrapper {
         padding: 2px 4px;
         display: flex;
@@ -21,6 +24,7 @@
         .icon {
             font-size: 40px;
             margin-right: 5px;
+            color: #ffffff;
             };
             .header-items{
                 display: flex;
@@ -41,6 +45,7 @@
                     height: 100px;
                     z-index: 200;
                     overflow: hidden;
+                    
                 }
                 a { 
                     z-index: 200;
