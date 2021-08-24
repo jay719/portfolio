@@ -10,25 +10,22 @@ export default function ProjectsComponent () {
         {
             id: "snack",
             title: "Snack Maps",
-            source: "https://www.youtube.com/embed/YSNof3v78aM",
+            source: "https://www.youtube.com/embed/nVxz5scZzgA",
             website: "https://snack-maps-7.web.app/",
             description: "Local Restaurant & Cuisine Finding Website",
         },
-
         {
             id:"goat",
             title:"G.O.A.T Planning",
             source: "https://www.youtube.com/embed/YSNof3v78aM",
-            website: "",
             description: "Event Planning App compatible with multiple friends",
         },
 
         {
             id:"anime",
             title:"Animania",
-            source: "https://www.youtube.com/embed/nVxz5scZzgA",
-            website: "Review the Most nominated Anime with this app",
-            description: "Top 50 anime reviewing app"
+            source: "https://www.youtube.com/embed/5enqQVYN4x4",
+            description: "Review the Most nominated Anime with this app"
         }
     ];
     

@@ -12,6 +12,7 @@
     }
     a {
         font-size: 18px;
+        text-decoration: none;
     } 
 
     ul {
@@ -41,13 +42,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-wrap: wrap;
-        .item {
-            width:640px;
-            height:360px;
-            border-radius: 20px;
-            border: 1px solid rgb(168, 197, 207);
-            margin: 10px 20px;
+        
+        .site {
+            
             display: flex;
             align-items: center;
             justify-content: center;
@@ -56,6 +53,12 @@
             .iframe {
                 left: 20px; 
                 z-index: 1;
+                width:640px;
+                height:360px;
+                
+            //     border-radius: 20px;
+            // border: 1px solid rgb(168, 197, 207);
+            // margin: 10px 20px;
             }
         }
 
