@@ -1,0 +1,28 @@
+[debug] [2021-09-06T18:47:50.334Z] ----------------------------------------------------------------------
+[debug] [2021-09-06T18:47:50.335Z] Command:       /home/jay/.nvm/versions/node/v16.6.2/bin/node /home/jay/.nvm/versions/node/v16.6.2/bin/firebase init
+[debug] [2021-09-06T18:47:50.335Z] CLI Version:   9.17.0
+[debug] [2021-09-06T18:47:50.335Z] Platform:      linux
+[debug] [2021-09-06T18:47:50.335Z] Node Version:  v16.6.2
+[debug] [2021-09-06T18:47:50.336Z] Time:          Mon Sep 06 2021 12:47:50 GMT-0600 (Mountain Daylight Time)
+[debug] [2021-09-06T18:47:50.336Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-06T18:47:50.339Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-06T18:47:50.339Z] > authorizing via signed-in user (javariab17@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/jay/dev/projects/portfolio/portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 

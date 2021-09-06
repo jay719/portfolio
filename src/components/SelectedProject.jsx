@@ -13,9 +13,10 @@ export default function SelectedProject({website,source,description}) {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
 
             </iframe>
-            {website ? <a href={website}>Visit Website</a> : ""}
+            
             </div>
             <h2>{description}</h2>
+            {website ? <a href={website}>Visit Website</a> : ""}
         </div>
     )
 }
