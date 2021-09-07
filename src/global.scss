@@ -1,2 +1,8 @@
 $mainColor:rgb(133, 151, 168);
 $textColor: #f0e68c;
+a {
+    text-decoration: none;   
+}
+a:visited {
+    color: gold;
+}

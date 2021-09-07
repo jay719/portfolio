@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styling/contactme.scss'
 import profilePic from '../assets/github-profile.jpg'
+import resumePDF from '../assets/javaria-Brascom-resume-blue.pdf';
 export default function Resume () {
 
     return (
@@ -16,7 +17,7 @@ export default function Resume () {
                 </div>
                 <div className="imageContainer">
                     <img src={profilePic} alt="Javaria's beatiful face"/>
-                    <p> RESUME BUTTON</p>
+                    <a href={ resumePDF } target="_blank" rel="noreferrer">View Resume</a>
                 </div>
             </div>
 

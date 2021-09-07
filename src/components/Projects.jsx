@@ -13,19 +13,22 @@ export default function ProjectsComponent () {
             source: "https://www.youtube.com/embed/nVxz5scZzgA",
             website: "https://snack-maps-7.web.app/",
             description: "Local Restaurant & Cuisine Finding Website",
+            bulletPoints: ["Joined Leaflet Map Library, JavaScript, and CSS to render geolocated Zomato API restaurants on user-click.", "Established Ruby On Rails backend to handle JWT sign up and sign in authorization"]
         },
         {
             id:"goat",
             title:"G.O.A.T Planning",
             source: "https://www.youtube.com/embed/YSNof3v78aM",
             description: "Event Planning App compatible with multiple friends",
+            bulletPoints: ["Utilized JSON Web Tokens and PostgreSQL to store encrypted user information Heroku deployed backend.", "Combined React Native libraries to create a simple to use UI design with functional map, camera, and calendar features", "Managed state with React Redux and Hooks.", "Accessible through Expo-CLI with version 2.0 in development to meet Apple's App Store requirements for further deployment"]
         },
 
         {
             id:"anime",
             title:"Animania",
             source: "https://www.youtube.com/embed/5enqQVYN4x4",
-            description: "Review the Most nominated Anime with this app"
+            description: "Review the Most nominated Anime with this app",
+            bulletPoints: ["Designed the front-end of this project utilizing event listeners and json data requested from the Anime API."]
         }
     ];
     
@@ -60,12 +63,13 @@ export default function ProjectsComponent () {
     }, [selected])
 
     const showProjectInformation = (project) => {
+        console.log(project.bulletPoints)
         return <SelectedProject 
                 title={project.title}
                 source={project.source}
                 website={project.website}
                 description={project.description}
-    
+                bulletPoints={project.bulletPoints}
             />
     }
     return (

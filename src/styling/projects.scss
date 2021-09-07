@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    height: fit-content;
     h1 {
         font-size: 50px;
     }
@@ -18,9 +18,10 @@
     ul {
         margin: 10px;
         padding: 0;
-        list-style: none;
-        display: flex;
         
+        display: flex;
+        position: sticky;
+        z-index: 100;
         li {
             font-size: 20px;
             margin-right: 50px;
@@ -37,21 +38,15 @@
         }
     }
     .container{
-        width: 70%;
-        height: 70%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 100vw;
+        height: fit-content;
         
         .site {
-            
             display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            position: relative;
+            flex-direction: column;
+            width: 100vw;
             .iframe {
-                left: 20px; 
+            
                 z-index: 1;
                 width:640px;
                 height:360px;
@@ -60,10 +55,34 @@
             // border: 1px solid rgb(168, 197, 207);
             // margin: 10px 20px;
             }
-        }
-
-        h3 {
+        
+        
+        h2 {
             font: 20px;
+            color: black;
+        }
+        
+            .youtube {
+                width:100vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .list{
+                display: flex;
+                width:100vw;
+                li {
+                    width: 100vw;
+                    overflow-x: visible;
+                }
+    
+            }
+        }  
+
+        h2 {
+            font: 20px;
+            color: black;
         }
         
         
