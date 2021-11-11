@@ -57,9 +57,9 @@ export default function Home() {
                  <div className="wrapper">
                     <h2 ref={helloRef} className="helloText"></h2>
                     <h2 ref={typingRef} className="typingText"></h2>
-                    <div className="floatText">
+                    {/* <div className="floatText">
                         <h2>boosting <b> productivity</b> and making yo</h2><span><b>User</b> focused applications </span>
-                    </div> 
+                    </div>  */}
                 </div>
         </div>
         </div>
