@@ -66,7 +66,7 @@ export default function Points () {
         <pointsMaterial
             attach="material"
             map={imgTexture}
-            color={0xFFFFFF}
+            // color={0xFFFFFF}
             sizeAttenuation
             transparent={false} //makes the transparency not blac
             alphaTest={0.5}

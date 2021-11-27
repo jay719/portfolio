@@ -21,7 +21,7 @@ export default function Home() {
         });
         init(helloRef.current, {
             showCursor: false,
-            strings: ["Welcome! I am a"],
+            strings: ["<Welcome! My name is>"],
             loop: false,
             typeSpeed: 60,
             
@@ -56,6 +56,7 @@ export default function Home() {
             <div className="text">
                  <div className="wrapper">
                     <h2 ref={helloRef} className="helloText"></h2>
+                    <h1>Javaria Brascom</h1>
                     <h2 ref={typingRef} className="typingText"></h2>
                     {/* <div className="floatText">
                         <h2>boosting <b> productivity</b> and making yo</h2><span><b>User</b> focused applications </span>
@@ -63,6 +64,7 @@ export default function Home() {
                 </div>
         </div>
         </div>
+    
     )
 }
 

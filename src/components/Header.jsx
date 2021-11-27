@@ -1,6 +1,7 @@
 import React, { useCallback } from 'react'
 import '../styling/header.scss'
 import {LinkedIn, Mail, GitHub, LibraryBooks} from "@material-ui/icons"
+import Switch from "@material-ui/core/Switch";
 import IconButton from '@material-ui/core/IconButton';
 import { useHistory } from 'react-router';
 import logo from '../assets/logo.png'
@@ -17,10 +18,10 @@ export default function Header () {
             <div className="headerWrapper">
                 <div className="headerLeft">
                     <a href="#home" >
-                        <img className="logo" src={logo} alt="GAME OVER" />
+                        {/* <img className="logo" src={logo} alt="GAME OVER" /> */}
+                        <Switch />
                     </a>
                     <div className="header-items">
-                        <h4>Javaria Brascom</h4>
                     </div>
                     
                     

@@ -11,9 +11,15 @@ function App() {
     <div className="App">
       <Header />
       <div className="sections">
+        <div className="section1">
         <Home />
+        </div>
+        <div className="section2">
         <Projects />
+        </div>
+        <div className="section3">
         <ContactMe />
+        </div>
       </div>
       {/* <BrowserRouter>
         
