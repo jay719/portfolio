@@ -56,7 +56,7 @@ export default function Home() {
             <div className="text">
                  <div className="wrapper">
                     <h2 ref={helloRef} className="helloText"></h2>
-                    <h1>Javaria Brascom</h1>
+                    <h1>JBrascom</h1>
                     <h2 ref={typingRef} className="typingText"></h2>
                     {/* <div className="floatText">
                         <h2>boosting <b> productivity</b> and making yo</h2><span><b>User</b> focused applications </span>
